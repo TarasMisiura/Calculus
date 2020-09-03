@@ -1,0 +1,1933 @@
+@media (max-width: 1246px) {
+    .attention-activation {
+        width: auto !important;
+        margin-top: 25px !important;
+    }
+
+    .attention-text {
+        margin-left: 26px;
+    }
+
+    .personal-menu {
+        width: 260px !important;
+        margin-top: 25px !important;
+    }
+
+    .img-attention-activation {
+        opacity: 0.1;
+    }
+
+    .my-student-header {
+        margin-top: 35px;
+    }
+
+    .btn-add-student {
+        margin-top: 20px;
+    }
+
+    .bloc-inner-my-student {
+        width: auto !important;
+        padding-right: 28px;
+    }
+
+    .btn-add-student {
+        margin-right: 25px;
+    }
+
+    .navbar-light {
+        height: 110px;
+    }
+
+    .navbar-brand {
+        margin-right: 30px !important;
+    }
+
+    .navbar-nav {
+        margin-left: 0 !important;
+    }
+
+    .my-student {
+        width: 70%;
+    }
+
+    .form-activation,
+    .attention-text {
+        margin-left: 30px !important;
+    }
+
+    .menu-info {
+        margin-left: 20px !important;
+        margin-top: 70px !important;
+        width: 70%;
+    }
+
+    .student-menu-header {
+        top: 150px !important;
+    }
+
+    .settings-bloc,
+    .profile-photo {
+        margin: 0 auto;
+    }
+
+    .profile-title-option {
+        padding-left: 20px !important;
+        padding-top: 20px !important;
+    }
+
+    .message-title-inner {
+        padding-left: 25px !important;
+    }
+
+    .message-profile-text-title,
+    .message-profile-text-text {
+        margin-left: 35px !important;
+        width: auto !important;
+        font-size: 14px;
+    }
+
+    .bloc-inner {
+        padding-bottom: 40px !important;
+    }
+
+    .personal-coupons {
+        padding-left: 30px !important;
+    }
+
+    .add-coupons-inner {
+        padding: 0 30px;
+    }
+
+    #add_coupon_number {
+        width: 380px !important;
+        padding: 0 118px !important;
+    }
+
+    .buy-coupons-bloc {
+        width: 205px !important;
+        text-align: center;
+        padding-bottom: 20px !important;
+        padding-top: 20px !important;
+        margin-right: 15px !important;
+        margin-top: 15px !important;
+    }
+
+    .buy-coupons > .add-coupons-title {
+        padding: 0 30px !important;
+    }
+
+    .buy-coupons-group {
+        text-align: center;
+        padding: 0 10px !important;
+    }
+
+    .coupons-info {
+        padding: 0 20px 20px;
+    }
+
+    .coupons-attention {
+        right: -18px;
+    }
+
+    .btn-coupons-activate {
+        padding: 12px 20px !important;
+    }
+
+    .coupon-cod {
+        padding: 32px 40px !important;
+    }
+
+    .coupons-attention {
+        right: -20px !important;
+    }
+
+    .coupon-btn-info {
+        padding-left: 30px !important;
+    }
+
+    .result-info-parents,
+    .result-parents {
+        width: 96% !important
+    }
+
+    .result-info {
+        margin: 20px auto 0 !important;
+    }
+
+    .btn-back {
+        top: -60px !important;
+    }
+
+    .icon-chevron-up {
+        right: 30px !important;
+    }
+
+    .result-info {
+        width: 91% !important
+    }
+
+    .prog-bar-inner {
+        width: 65% !important
+    }
+
+    .lecture-no {
+        padding: 0 10px;
+    }
+
+    .lecture-no-img {
+        width: 80%;
+    }
+
+    .btn-repetition {
+        padding: 12px 20px !important;
+    }
+
+    .lecture {
+        width: auto !important;
+        padding: 0 5px 20px !important;
+    }
+
+    .regular-repetition {
+        margin-left: 15px !important;
+        padding: 20px !important;
+    }
+
+    .repetition-img {
+        width: 80% !important;
+    }
+
+    .lecture-yes-img {
+        width: 100% !important;
+    }
+
+    .create-header > h2 {
+        padding-top: 40px !important;
+        height: 130px !important;
+        padding-bottom: 0 !important;
+    }
+
+    .create-header-img1 {
+        right: 280px !important;
+        top: 27px !important;
+    }
+
+    .create-header-img4 {
+        left: 45px !important;
+        top: 120px !important;
+    }
+
+    .create-header-img3 {
+        top: 27px !important;
+    }
+
+    .create-body {
+        padding: 16px !important;
+    }
+
+    .create-bloc {
+        width: 306px !important;
+        margin: 20px 8px !important;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+
+    .student-bloc-text > h2 {
+        font-size: 40px !important;
+    }
+
+    .login-form-group {
+        padding-top: 15px !important;
+    }
+
+    .login-form-group:first-child {
+        padding-top: 0 !important;
+    }
+
+    .my-1 {
+        margin-top: 20px !important;
+    }
+
+    .btn-reg {
+        margin-top: 10px !important;
+    }
+
+    .buy-coupons-bloc:last-child {
+        margin-right: 0 !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1246px !important;
+    }
+
+    .buy-coupons-bloc:last-child {
+        margin-right: 0 !important;
+    }
+
+    .settings-line {
+        width: auto !important;
+        margin: 0 auto;
+        max-width: 100%;
+        bottom: 40px;
+        position: inherit;
+        height: 2px !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1245.98px) {
+    .modal-xl {
+        max-width: 992px;
+    }
+
+    .enter-img {
+        padding-left: 36px !important;
+        padding-top: 5px !important;
+        padding-bottom: 1px !important;
+        flex: 0 0 50%;
+    }
+
+    .enter-img > img {
+        width: 100%;
+    }
+
+    .login-form {
+        padding-top: 0px !important;
+        padding-left: 40px;
+    }
+
+    .modal-content {
+        padding-bottom: 40px !important;
+    }
+
+    .container {
+        max-width: 1246px !important;
+    }
+
+    .enter-img {
+        padding-left: 48px !important;
+        padding-top: 20px !important;
+    }
+
+    .login-form {
+        padding-top: 30px;
+    }
+
+    .before-start-title {
+        margin-bottom: 22px !important;
+        font-size: 38px !important;
+    }
+
+    .before-start-text {
+        margin-bottom: 20px !important;
+    }
+
+    .modal-content {
+        padding-bottom: 40px;
+    }
+
+    .img-ellipse {
+        width: 371px !important;
+        height: 435px !important;
+    }
+
+    .d43, .d44, .d45, .d46 {
+        width: 435px !important;
+        height: 435px !important;
+    }
+
+    .around-1 {
+        top: 64px !important;
+        right: 59px !important;
+    }
+
+    .around-2 {
+        top: 61px !important;
+        left: 93px !important;
+    }
+
+    .around-3 {
+        top: 366px !important;
+        left: 109px !important;
+    }
+
+    .around-4 {
+        top: 349px !important;
+        right: 58px !important;
+    }
+
+    .around-yellow1 {
+        top: 56px !important;
+        left: 40px !important;
+    }
+
+    .around-yellow {
+        top: 59px !important;
+        right: 42px !important;
+    }
+
+    .around-yellow2 {
+        top: 361px !important;
+        left: 56px !important;
+    }
+
+    .around-yellow3 {
+        top: 349px !important;
+        left: 364px !important;
+    }
+
+    .enter-img1 {
+        padding-left: 48px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0 !important;
+    }
+
+    .regular-repetition {
+        width: auto !important;
+        max-width: 40%;
+    }
+
+    .lecture {
+        max-width: 70%;
+    }
+
+    .repetition-img {
+        width: 62% !important;
+    }
+
+    .navbar-light {
+        height: 120px !important;
+    }
+
+    .password-control::before {
+        top: 50px !important;
+    }
+
+    .menu-info {
+        width: 76% !important;
+    }
+
+    .lecture {
+        width: 592px !important;
+    }
+
+    .create-bloc:hover {
+        height: auto !important;
+    }
+
+    .coupons-attention {
+        bottom: 12px !important;
+    }
+}
+
+@media (min-width: 1246px) {
+    .modal-xl {
+        max-width: 1216px;
+    }
+
+    .login-form {
+        padding-top: 91px !important;
+        padding-left: 40px;
+    }
+
+    .enter-img {
+        flex: 0 0 58.333333%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container {
+        max-width: 1246px;
+    }
+
+    .create-body > .row {
+        margin-left: -15px !important;
+    }
+
+    .bloc-inner-settings {
+        padding: 30px 0px 30px 0px !important;
+    }
+
+    .profile-photo {
+        margin-left: 20px !important;
+    }
+
+    .profile-photo-bloc {
+        width: 260px !important;
+    }
+
+    .modal-xl {
+        max-width: 900px !important;
+    }
+
+    .navbar-light {
+        height: 90px !important;
+    }
+
+    .student-menu-header {
+        top: 110px !important;
+    }
+
+    .btn-main {
+        margin-top: 20px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .login-form-group {
+        padding-top: 15px;
+    }
+
+    .login-form-input {
+        height: 44px !important;
+    }
+
+    h2 {
+        font-size: 40px !important;
+    }
+
+    .form-modal-enter {
+        width: 310px !important;
+    }
+
+    .enter-img {
+        padding-left: 31px !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .enter-img > img {
+        width: 100%;
+    }
+
+    .modal-content {
+        padding-bottom: 40px !important;
+    }
+
+    .login-form {
+        padding-top: 0 !important;
+        padding-left: 30px !important;
+    }
+
+    .create-header > h2 {
+        padding-top: 10px !important;
+        height: 60px !important;
+    }
+
+    .create-header-img1,
+    .create-header-img3 {
+        top: 10px !important;
+    }
+
+    .create-header-img2 {
+        top: 25px !important;
+        right: 76px !important;
+    }
+
+    .create-header-img4 {
+        left: 38px !important;
+        top: 15px !important;
+        transform: matrix(1, 0, 0, 1, 0, 0) !important;
+        width: 28px;
+    }
+
+    .create-body > .row {
+        display: block;
+        text-align: center;
+    }
+
+    .create-bloc {
+        display: inline-block;
+    }
+
+    #studentModal .create-body > .row,
+    #parentsModal .create-body > .row,
+    #teacherModal .create-body > .row {
+        display: flex !important;
+    }
+
+    .student-teacher {
+        margin-top: 10px !important;
+        padding-bottom: 0 !important;
+    }
+
+    .student-text-title,
+    .student-text {
+        text-align: left;
+    }
+
+    .vector {
+        display: block;
+    }
+
+    .student-bloc-text {
+        padding-left: 50px !important;
+    }
+
+    .student-bloc-text > h2 {
+        text-align: left;
+    }
+
+    .form-modal-enter {
+        text-align: left;
+    }
+
+    .create-text {
+        font-size: 15px !important;
+    }
+
+    .create-bloc {
+        width: 275px !important;
+        margin: 15px 8px !important;
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+
+    .create-account > img {
+        margin: 20px auto;
+        width: 100%;
+    }
+
+    .create-bloc:hover {
+        width: 275px !important;
+        height: auto !important;
+    }
+
+    .enter-img {
+        padding-left: 20px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0 !important;
+    }
+
+    .img-ellipse {
+        width: 336px !important;
+        height: 395px !important;
+    }
+
+    .d43, .d44, .d45, .d46 {
+        width: 395px !important;
+        height: 395px !important;
+    }
+
+    .around-1 {
+        top: 59px !important;
+        right: 52px !important;
+    }
+
+    .around-2 {
+        top: 57px !important;
+        left: 85px !important;
+    }
+
+    .around-3 {
+        top: 331px !important;
+        left: 100px !important;
+    }
+
+    .around-4 {
+        top: 316px !important;
+        right: 50px !important;
+    }
+
+    .around-yellow {
+        top: 54px !important;
+        right: 39px !important;
+    }
+
+    .around-yellow1 {
+        top: 52px !important;
+        left: 34px !important;
+    }
+
+    .around-yellow2 {
+        top: 326px !important;
+        left: 50px !important;
+    }
+
+    .around-yellow3 {
+        top: 316px !important;
+        left: 330px !important;
+    }
+
+    .enter-img1 {
+        padding-left: 45px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0 !important;
+    }
+
+    #before_start h2 {
+        font-size: 35px !important;
+    }
+
+    #before_start .before-start-title {
+        margin-bottom: 20px;
+    }
+
+    .before-start-img {
+        margin-top: 110px !important;
+        width: 70%;
+    }
+
+    .coupons-container {
+        margin: 0 auto;
+        width: auto !important;
+    }
+
+    .dropdown-menu1 {
+        width: 185px !important;
+    }
+
+    .password-control::before {
+        top: 50px !important;
+    }
+
+    .form-modal-enter {
+        margin: auto;
+    }
+
+    .custom-control-label {
+        font-size: 12px !important;
+    }
+
+    .btm-add-coupon {
+        margin: 0 !important;
+    }
+
+    .form-modal-enter1 {
+        width: 384px !important;
+    }
+
+    .repetition-title {
+        padding: 10px 0 13px !important;
+    }
+
+    .regular-repetition {
+        padding: 10px !important;
+    }
+
+    .coupons-attention {
+        bottom: 27px !important;
+    }
+
+    .settings-line {
+        width: auto !important;
+        margin: 0 auto;
+        max-width: 90%;
+        bottom: 40px;
+        position: inherit;
+    }
+
+    #Add_student_Modal .form-modal-enter {
+        width: auto !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .personal-menu {
+        display: none !important;
+    }
+
+    .settings-line {
+        width: auto !important;
+        margin: 0 auto;
+        max-width: 90%;
+        bottom: 40px;
+        position: inherit;
+    }
+
+    .my-student {
+        width: 100%;
+    }
+
+    .attention-activation {
+        margin-left: 0 !important;
+        margin-top: 35px !important;
+    }
+
+    .profile-photo {
+        margin-left: 8px !important;
+    }
+
+    .bloc-inner-settings {
+        padding: 30px 0px !important;
+    }
+
+    #navbarSupportedContent {
+        padding-left: 40px !important;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 88px !important;
+        z-index: 1;
+        border-radius: 0 0 10px 10px;
+        width: 691px;
+        left: 15px;
+        border-bottom: 1px solid;
+        padding-bottom: 20px;
+        max-width: 165%;
+    }
+
+    .language-select {
+        padding-left: 0 !important;
+    }
+
+    .nav-item {
+        font-size: 30px !important;
+        margin-right: 0 !important;
+    }
+
+    .navbar-nav .nav-item {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .menu-info {
+        margin-left: 0 !important;
+        width: 100%;
+    }
+
+    .nav-room-md {
+        display: block !important;
+    }
+
+    .nav-room {
+        display: none;
+    }
+
+    .enter-img {
+        display: none;
+    }
+
+    .login-form {
+        padding-top: 0px !important;
+    }
+
+    .form-modal-enter {
+        margin: auto;
+        text-align: left;
+    }
+
+    .login-form > h2 {
+        text-align: center;
+        font-size: 50px !important;
+    }
+
+    .form-modal-enter > button {
+        display: block;
+        margin: 20px auto 12px;
+    }
+
+    .create-header > h2 {
+        font-size: 25px !important;
+        padding-top: 0px !important;
+        height: 25px !important;
+    }
+
+    .create-header > img {
+        display: none !important;
+    }
+
+    .create-body > .row {
+        display: block;
+        text-align: center;
+        margin-left: -15px !important;
+    }
+
+    .create-bloc {
+        display: inline-block;
+    }
+
+    .modal-content {
+        padding-bottom: 30px !important;
+    }
+
+    .student-bloc-text,
+    .student-bloc-form {
+        max-width: 100%;
+        padding-left: 0 !important;
+    }
+
+    .student-text-title,
+    .student-item {
+        display: none;
+    }
+
+    .student-bloc-text > img {
+        display: none;
+    }
+
+    .student-bloc-text > h2 {
+        width: auto !important;
+    }
+
+    #before_start h2 {
+        font-size: 33px !important;
+    }
+
+    .before-start-box {
+        top: 120px;
+        padding-left: 70px !important;
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .d43, .d44, .d45, .d46 {
+        width: 353px !important;
+        height: 360px !important;
+    }
+
+    .img-ellipse {
+        width: 300px !important;
+        height: 359px !important;
+    }
+
+    .around-1 {
+        top: 52px !important;
+        right: 311px !important;
+    }
+
+    .around-2 {
+        top: 50px !important;
+        left: 104px !important;
+    }
+
+    .around-3 {
+        top: 302px !important;
+        left: 119px !important;
+    }
+
+    .around-4 {
+        top: 286px !important;
+        right: 310px !important;
+    }
+
+    .around-yellow {
+        top: 47px !important;
+        right: 33px !important;
+    }
+
+    .around-yellow1 {
+        top: 45px !important;
+        left: 29px !important;
+    }
+
+    .around-yellow2 {
+        top: 297px !important;
+        left: 44px !important;
+    }
+
+    .around-yellow3 {
+        top: 286px !important;
+        left: 293px !important;
+    }
+
+    .before-start-title {
+        margin-bottom: 10px !important;
+        padding-bottom: 420px !important;
+    }
+
+    .before-start-img {
+        margin-top: 60px !important;
+        margin-left: 124px !important;
+        width: 60% !important
+    }
+
+    #lectureStartBtn {
+        margin: 0 0 0 138px !important;
+    }
+
+    .before-start-text-box {
+        padding-left: 40px;
+    }
+
+    .before-start-text {
+        font-size: 19px !important;
+    }
+
+    .main-btn-group {
+        display: none !important;
+    }
+
+    .main-btn-group-header {
+        margin-left: 0 !important;
+        display: inline-block !important;
+    }
+
+    .navbar-light {
+        height: 90px !important;
+    }
+
+    .student-menu-header {
+        top: 110px !important;
+    }
+
+    .dropdown-menu1 {
+        left: 0 !important;
+    }
+
+    .password-control::before {
+        top: 50px !important;
+    }
+
+    .language-select {
+        margin-top: 20px !important;
+    }
+
+    .repetition-img {
+        width: 72% !important;
+    }
+
+    .login-form-reg {
+        text-align: center;
+    }
+
+    .navbar-brand {
+        margin-right: 0 !important;
+    }
+
+    .dropdown1 > .nav-item {
+        font-size: 14px !important;
+    }
+
+    .navbar-toggler {
+        margin-right: 55px !important;
+    }
+
+    .coupons-container {
+        width: auto !important;
+    }
+
+    .menu-info-lecture {
+        width: 85% !important;
+        margin: 20px auto 0 !important;
+        display: block !important;
+    }
+
+    .lecture .lecture-yes-img {
+        padding: 25px !important;
+        margin-top: 0 !important;
+    }
+
+    .menu-info-lecture .student-menu-header {
+        position: initial;
+    }
+
+    .result .student-menu-header {
+        margin-left: 240px;
+    }
+
+    .coupons .student-menu-header {
+        margin-left: 260px;
+    }
+
+    .message .student-menu-header,
+    .settings .student-menu-header {
+        margin-left: 230px;
+    }
+
+    .lecture {
+        margin-top: 20px !important;
+    }
+
+    .menu-info-lecture .regular-repetition {
+        margin-left: 0px !important;
+        padding: 20px !important;
+        margin-top: 30px !important;
+        width: auto !important;
+    }
+
+    .repetition-img {
+        width: 50% !important;
+    }
+
+    .repetition-title,
+    .lecture-yes-text {
+        font-size: 26px !important;
+    }
+
+    .repetition-text {
+        font-size: 18px !important;
+    }
+
+    .create-bloc:hover {
+        height: auto !important;
+    }
+
+    .modal-dialog {
+        max-width: 700px !important;
+    }
+
+    .dropdown-md {
+        display: inherit !important;
+    }
+
+    .dropdown-lg {
+        display: none !important;
+    }
+
+    .dropdown1 {
+        margin-left: auto !important;
+        margin-right: 0 !important;
+    }
+
+    .dropdown1 > .nav-item {
+        font-size: 19px !important;
+        text-transform: uppercase !important;
+    }
+
+    .nav-room-img {
+        top: -2px !important;
+    }
+
+    .dropdown2 > a::after {
+        top: 10px !important;
+    }
+
+    .dropdown-content {
+        width: 230px !important;
+    }
+
+    .option1 {
+        padding: 19px !important;
+        font-size: 22px !important;
+    }
+
+    .before-start-text {
+        font-size: 25px !important;
+        line-height: 34px;
+    }
+
+    #lectureStartBtn {
+        margin: 0 0 0 230px !important;
+    }
+
+    .create-account > h4 {
+        font-size: 22px !important;
+    }
+
+    .create-modal-login {
+        font-size: 18px !important;
+    }
+
+    .login-form-reg {
+        font-size: 16px !important;
+        padding-top: 15px !important;
+    }
+
+    .form-modal-enter {
+        width: auto !important;
+        padding: 0 20px !important;
+    }
+
+    .login-form > h2 {
+        font-size: 60px !important;
+    }
+
+    .login-form-group > label {
+        font-size: 20px !important;
+    }
+
+    .remember-pas {
+        font-size: 15px !important;
+    }
+
+    .login-form-input {
+        height: 56px !important;
+        font-size: 20px !important;
+    }
+
+    .btn-main {
+        font-size: 20px !important;
+    }
+
+    .img-attention {
+        margin-left: 6px !important;
+    }
+
+    .coupons-attention {
+        right: -40px !important;
+        bottom: 12px !important;
+    }
+
+    .custom-select {
+        font-size: 20px !important;
+        height: 56px !important;
+        padding-top: 12px !important;
+    }
+
+    .settings-line {
+        width: 615px !important;
+    }
+
+    .add-account-title {
+        text-align: center !important;
+    }
+
+    .add-account-container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    #Add_student_Modal .add-account-body {
+        display: contents !important;
+    }
+
+    .student-name-add-form, .student-soname-add-form {
+        width: 48% !important;
+    }
+
+    .add-student-bloc-form > .btn-main {
+        margin-left: 115px;
+    }
+
+    .connect-student-bloc-form > .btn-connect {
+        margin-left: 100px !important;
+    }
+
+    .student-bloc-form {
+        padding-right: 0 !important;
+    }
+
+    .btn-cancel {
+        font-size: 20px !important;
+    }
+
+    #deleteModal .add-account-container {
+        text-align: center
+    }
+}
+
+@media (max-width: 768px) {
+    #navbarSupportedContent {
+        width: 96%;
+    }
+
+    .menu-info {
+        display: block !important;
+    }
+
+    .lecture {
+        padding: 20px !important;
+    }
+
+    .repetition-img {
+        width: 40% !important;
+    }
+
+    .regular-repetition {
+        margin-left: 0px !important;
+        width: auto !important;
+        margin-top: 25px;
+    }
+
+    .bloc-inner {
+        width: auto !important;
+    }
+
+    .result-info-title {
+        margin-bottom: 14px !important;
+    }
+
+    .prog-bar-inner {
+        width: 50% !important;
+    }
+
+    .whot-orange {
+        right: -20px !important;
+    }
+
+    .whot-blue {
+        right: 5px !important;
+    }
+
+    .tbody-graphic td img:first-child {
+        width: 90%;
+    }
+
+    .coupons-green {
+        height: 130px !important;
+    }
+
+    .coupons-title {
+        padding-top: 30px !important;
+    }
+
+    .radius-left {
+        width: 15px !important;
+        height: 35px !important;
+        top: 47px !important;
+    }
+
+    .radius-right {
+        width: 15px !important;
+        height: 35px !important;
+        top: 47px !important;
+    }
+
+    .coupons-container {
+        width: auto !important;
+    }
+
+    .personal-coupons {
+        margin-top: 10px !important;
+    }
+
+    .coupon-btn-info {
+        margin-top: 0px !important;
+    }
+
+    .coupons-tag {
+        margin-top: 15px
+    }
+
+    .coupons-info {
+        padding: 0 15px 15px !important;
+        margin-top: 16px;
+    }
+
+    .coupon-cod {
+        padding: 20px 30px !important;
+        float: inherit !important;
+    }
+
+    .coupons-gray {
+        height: 130px !important;
+    }
+
+    .add-coupons-inner {
+        margin-top: 25px !important;
+        margin-bottom: 25px !important;
+        text-align: center !important;
+    }
+
+    .add-coupons-title {
+        text-align: center !important;
+    }
+
+    .btm-add-coupon {
+        margin-top: 20px !important;
+        float: inherit !important;
+    }
+
+    .profile-title-data {
+        font-size: 17px !important;
+    }
+
+    .dropdown1 {
+        padding-right: 15px !important;
+    }
+
+    .result .student-menu-header {
+        margin-left: 150px;
+    }
+
+    .coupons .student-menu-header {
+        margin-left: 180px;
+    }
+
+    .message .student-menu-header,
+    .settings .student-menu-header {
+        margin-left: 139px;
+    }
+
+    .profile-photo-bloc {
+        margin: auto !important;
+    }
+
+    .settings-title {
+        text-align: center !important;
+    }
+
+    .basic-information {
+        margin: auto !important;
+    }
+
+    .profile-student .student-menu-header {
+        font-size: 27px !important;
+    }
+
+    .navbar-toggler {
+        margin-right: 0 !important;
+        margin-left: 10px;
+    }
+
+    .modal-dialog {
+        max-width: 500px !important;
+    }
+
+    .before-start-img {
+        margin-top: 92px !important;
+        margin-left: 81px !important;
+    }
+
+    .around-1 {
+        right: 111px !important;
+    }
+
+    .around-4 {
+        right: 110px !important;
+    }
+
+    .before-start-text-box {
+        padding-left: 0 !important;
+    }
+
+    #lectureStartBtn {
+        margin: 0 0 0 125px !important;
+    }
+
+    .buy-coupons-bloc:last-child {
+        margin-right: 15px !important;
+    }
+
+    .icon-chevron-up {
+        top: 30px !important;
+        margin-right: inherit !important;
+    }
+
+    .basic-information {
+        width: auto !important;
+        padding: 30px !important;
+    }
+
+    .settings-title {
+        font-size: 24px !important;
+    }
+
+    .login-form-group > label {
+        font-size: 21px !important;
+    }
+
+    .remember-pas {
+        font-size: 18px !important;
+    }
+
+    .setting-delete-profile {
+        font-size: 20px !important;
+    }
+
+    .delete-photo {
+        font-size: 18px !important;
+    }
+
+    .settings-line {
+        width: auto !important;
+        margin: 0 auto;
+        max-width: 87%;
+        bottom: 70px;
+        position: inherit;
+    }
+
+    .btn-add-student {
+        padding: 13px 25px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .my-student-header {
+        margin-left: 0 !important;
+        float: initial !important;
+    }
+
+    .bloc-inner-my-student {
+        padding-right: 0px !important;
+    }
+
+    .regular-repetition {
+        margin-left: 12px !important;
+    }
+
+    .student-name-add-form, .student-soname-add-form {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .add-student-bloc-form > .btn-main {
+        margin: 20px auto;
+        display: block;
+    }
+
+    .btn-cancel {
+        display: block;
+        margin: 20px auto 0 !important;
+    }
+
+    .result-info-parents {
+        display: block !important;
+    }
+
+    .parents-info-title {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .img-attention-activation {
+        display: none !important;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .container {
+        width: 100% !important
+    }
+
+    .navbar-brand {
+        width: 114px !important;
+        height: 40px !important;
+        margin: auto !important;
+        padding-top: 0 !important;
+    }
+
+    .main-btn-group-header {
+        margin-left: 15px !important;
+    }
+
+    #navbarSupportedContent {
+        width: 94%;
+    }
+
+    .btn-main-reg {
+        margin-left: 10px !important;
+        padding: 8px 10px !important;
+    }
+
+    .btn-main-login {
+        padding: 8px 20px !important;
+    }
+
+    .navbar-nav {
+        max-width: 95% !important;
+    }
+
+    .modal-dialog {
+        max-width: min-content !important;
+    }
+
+    .create-header > h2 {
+        height: 55px !important;
+    }
+
+    .student-bloc-text > h2 {
+        font-size: 32px !important;
+    }
+
+    .modal-header {
+        padding-bottom: 0 !important;
+    }
+
+    .student-bloc-form {
+        padding-left: 15px !important;
+    }
+
+    .dropdown1 {
+        width: auto !important;
+    }
+
+    .dropdown1 > .nav-item {
+        font-size: 17px !important;
+    }
+
+    .before-start-text {
+        padding-left: 27px !important;
+        font-size: 22px !important;
+    }
+
+    .img-ellipse {
+        width: 260px !important;
+        height: 319px !important;
+    }
+
+    .before-start-box {
+        top: 140px;
+        padding-left: 15px !important;
+    }
+
+    .before-start-title {
+        padding-bottom: 335px !important;
+    }
+
+    .d43, .d44, .d45, .d46 {
+        width: 307px !important;
+        height: 320px !important;
+    }
+
+    .around-1 {
+        right: 11px !important;
+        top: 46px !important;
+    }
+
+    .around-2 {
+        top: 44px !important;
+        left: 44px !important;
+    }
+
+    .around-3 {
+        top: 268px !important;
+        left: 58px !important;
+    }
+
+    .around-4 {
+        right: 10px !important;
+        top: 251px !important;
+    }
+
+    .around-yellow {
+        top: 42px !important;
+        right: 28px !important;
+    }
+
+    .around-yellow1 {
+        top: 39px !important;
+        left: 24px !important;
+    }
+
+    .around-yellow2 {
+        top: 264px !important;
+        left: 38px !important;
+    }
+
+    .around-yellow3 {
+        top: 251px !important;
+        left: 251px !important;
+    }
+
+    .icon-check {
+        margin-top: 15px;
+    }
+
+    .lecture .modal-dialog {
+        max-width: 305px !important;
+    }
+
+    #lectureStartBtn {
+        margin: 0 0 0 33px !important;
+    }
+
+    .form-modal-enter {
+        width: 350px !important;
+        padding: 0 !important;
+    }
+
+    .coupon-information {
+        margin-left: 10px !important;
+    }
+
+    .coupons-attention {
+        position: inherit !important;
+        bottom: 17px !important;
+        float: inherit !important;
+    }
+
+    .img-attention {
+        display: block !important;
+        margin-top: 20px !important;
+    }
+
+    .menu-info {
+        margin-top: 10px !important;
+    }
+
+    .coupons .student-menu-header {
+        margin-left: 0 !important;
+        position: initial !important;
+        margin-bottom: 20px !important;
+    }
+
+    .coupons-title {
+        padding: 10px 10px 0 !important;
+    }
+
+    .coupons-data {
+        padding: 0 25px !important;
+    }
+
+    #add_coupon_number {
+        width: 338px !important;
+        padding: 0 90px !important;
+    }
+
+    .profile-title-option {
+        padding-left: 10px !important;
+        padding-top: 10px !important;
+    }
+
+    .profile-title-data {
+        text-align: end !important;
+    }
+
+    .student-menu-header {
+        position: initial !important;
+        margin-left: 0 !important;
+        margin-bottom: 15px;
+    }
+
+    #Add_student_Modal > .modal-dialog {
+        max-width: max-content !important;
+    }
+
+    .add-account-container {
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .btn-delete, .btn-cancel {
+        display: block;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 20px !important;
+    }
+
+    .connect-student-bloc-form > .btn-connect {
+        margin: 20px auto 0 !important;
+    }
+
+    .student-bloc-form {
+        padding-right: 15px !important;
+    }
+
+    .parents .profile-student .bloc-inner-settings {
+        margin-top: 55px !important;
+    }
+
+    .parents .btn-back {
+        left: 10px;
+    }
+
+    .parents .settings-bloc {
+        width: 100% !important
+    }
+
+    #deleteModal .modal-dialog {
+        max-width: max-content !important;
+    }
+
+    .info-icon {
+        margin-left: 10px !important;
+    }
+
+    .prog-bar-inner {
+        width: 80% !important;
+        margin-bottom: 15px;
+    }
+
+    .whot-blue {
+        right: 10px !important;
+    }
+
+    .whot-orange {
+        right: -10px !important;
+    }
+
+    .modal-add-student {
+        max-width: max-content !important;
+    }
+}
+
+@media (max-width: 420px) {
+    .navbar-light {
+        height: auto !important;
+        max-width: 88%;
+        margin-left: 15px;
+    }
+
+    #navbarSupportedContent {
+        width: 96% !important;
+        top: 101px !important;
+    }
+
+    .form-modal-enter {
+        width: 330px !important;
+    }
+
+    .student-bloc-text > h2 {
+        font-size: 25px !important;
+    }
+
+    .my-1 {
+        margin-top: 15px !important;
+    }
+
+    .custom-control-label {
+        font-size: 12px !important;
+        padding-left: 10px !important;
+    }
+
+    .dropdown1 {
+        margin-left: 5px !important;
+        margin-bottom: 13px !important;
+    }
+
+    .coupons-gray {
+        height: 168px !important;
+    }
+
+    .coupons-gray .radius-right,
+    .coupons-gray .radius-left {
+        top: 65px !important;
+    }
+
+    #add_coupon_number {
+        width: 287px !important;
+        padding: 0 70px !important;
+    }
+
+    .message-title-theme {
+        display: none;
+    }
+
+    .profile-title-option > .row > .profile-title-data:last-child {
+        display: none;
+    }
+
+    .message-title-box {
+        flex: 1 0 16.666667% !important;
+        max-width: 41.667% !important;
+    }
+
+    .icon-chevron-up {
+        top: 15px !important;
+    }
+
+    .profile-title-data {
+        margin-left: 15px !important;
+        flex: 1 0 16.666667%;
+        max-width: 35.667%;
+        text-align: left !important;
+    }
+
+    .basic-information {
+        padding: 15px !important;
+    }
+
+    .settings-line {
+        max-width: 90%;
+        bottom: 57px;
+    }
+
+    .add-account-container {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    #Add_student_Modal > .modal-dialog {
+        max-width: min-content !important;
+    }
+
+    .add-method.active {
+        border-bottom: none !important;
+    }
+
+    .info-icon {
+        margin-left: 0 !important;
+    }
+
+    .result-info-parents {
+        padding: 25px 10px 15px !important;
+    }
+
+    .info-icon {
+        width: auto !important;
+        margin-right: 5px;
+    }
+
+    .btn-activation {
+        margin: 20px auto 0 !important;
+        display: block !important;
+    }
+
+    .input-cod-activation {
+        width: initial !important;
+        height: 56px !important;
+        margin: 16px auto 0 !important;
+        display: block !important;
+    }
+
+    .form-activation {
+        margin-left: 0 !important;
+    }
+
+    .table-graphic thead th {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 370px) {
+    .navbar-light {
+        height: auto !important;
+        max-width: 100%;
+        margin-left: 0 !important;
+    }
+
+    #navbarSupportedContent {
+        width: 91% !important;
+    }
+
+    .create-bloc {
+        width: 300px !important;
+    }
+
+    .form-modal-enter {
+        width: 290px !important;
+    }
+
+    .student-bloc-form {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .login-form {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .modal-content {
+        padding-bottom: 20px !important;
+    }
+
+    .coupons-title {
+        padding-top: 10px !important;
+        font-size: 30px !important;
+    }
+
+    .coupons-gray {
+        height: 206px !important;
+    }
+
+    .coupons-gray .radius-right, .coupons-gray .radius-left {
+        top: 90px !important;
+    }
+
+    #add_coupon_number {
+        width: 232px !important;
+        padding: 0 15px !important;
+        text-align: center;
+    }
+
+    .profile-photo-bloc {
+        padding: 30px 20px !important;
+        width: 260px !important;
+    }
+
+    .settings-title {
+        padding: 0 10px !important;
+    }
+
+    .profile-photo {
+        margin-left: 0px !important;
+    }
+
+    .table-parents td {
+        padding: 10px 0 !important;
+    }
+
+    .icon-table > svg {
+        margin-left: 4px;
+        display: block !important;
+    }
+}
+
+@media (max-width: 329px) {
+    .settings-line {
+        bottom: 76px;
+    }
+}

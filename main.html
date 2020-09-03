@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>main</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;1,700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="assets/bootstrap4.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<section class="header">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light col-12">
+                <img class="navbar-brand" src="assets/img/Logo.png" alt="">
+                <div class="main-btn-group main-btn-group-header">
+                    <button type="button" class="btn-primary btn-main-login" data-toggle="modal"
+                            data-target="#loginModal">
+                        Login
+                    </button>
+                    <button type="button" class="btn-primary btn-main-reg" data-toggle="modal"
+                            data-target="#createModal">
+                        Registration
+                    </button>
+                </div>
+                <!-- <div class="dropdown nav-room-md">
+                     <div class="nav-room" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         <img class="nav-room-img" src="assets/img/avatar.png" alt="">
+                         <a href="#" class="nav-room-link">Артур Бобриков</a>
+                         <span class="icon-chevron-down"></span>
+                     </div>
+                     <div class="dropdown-menu dropdown-menu1" aria-labelledby="dropdownMenu1">
+                         <ul>
+                             <li class="option1">
+                                 Мои студенты
+                             </li>
+                             <li class="option1">
+                                 Результаты
+                             </li>
+                             <li class="option1">
+                                 Купоны
+                             </li>
+                             <li class="option1">
+                                 Сообщения
+                             </li>
+                             <li class="option1">
+                                 Настройки
+                             </li>
+                             <li class="option1">
+                                 Выйти
+                             </li>
+                         </ul>
+                     </div>
+                 </div>-->
+                <button class="navbar-toggler navbar-toggler-index collapsed" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="container1" onclick="myFunction(this)">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                    <span class="bar4"></span>
+                    <span class="bar5"></span>
+                    </span>
+                </button>
+                <div class="navbar-collapse col-md-12 col-lg-10 collapse" id="navbarSupportedContent" style="">
+                    <ul class="navbar-nav col-6">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">O PROJECTU <!--<span class="sr-only">(current)</span>--></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NAPOVEDA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">KONTAKTY</a>
+                        </li>
+                    </ul>
+                    <ul class="language-select col-md-3 col-lg-2">
+                        <li class="language" data-lang="ukr">UKR</li>
+                        <span class="lang-line">&#448;</span>
+                        <li class="language active" data-lang="rus">RUS</li>
+                    </ul>
+                    <!--<div class="dropdown dropdown1 col-lg-3">
+                    <div class="nav-room" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img class="nav-room-img" src="assets/img/avatar.png" alt="">
+                        <a href="#" class="nav-room-link">Артур Бобриков</a>
+                        <span class="icon-chevron-down"></span>
+                    </div>
+                        <div class="dropdown-menu dropdown-menu1" aria-labelledby="dropdownMenu1">
+                                <ul>
+                                    <li class="option1">
+                                        Мои студенты
+                                    </li>
+                                    <li class="option1">
+                                        Результаты
+                                    </li>
+                                    <li class="option1">
+                                        Купоны
+                                    </li>
+                                    <li class="option1">
+                                        Сообщения
+                                    </li>
+                                    <li class="option1">
+                                        Настройки
+                                    </li>
+                                    <li class="option1">
+                                        Выйти
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>-->
+                    <!--                     Button trigger modal -->
+                    <div class="main-btn-group">
+                        <button type="button" class="btn-primary btn-main-login" data-toggle="modal"
+                                data-target="#loginModal">
+                            Login
+                        </button>
+                        <button type="button" class="btn-primary btn-main-reg" data-toggle="modal"
+                                data-target="#createModal">
+                            Registration
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <!-------------- Modals -------------->
+    <!-- Login Modal -->
+    <div class="modal fade show" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="enter-img col-7">
+                            <img src=assets/img/Group.png alt="">
+                        </div>
+                        <div class="login-form col-md-12 col-lg-5">
+                            <h2 class="enter">Вход</h2>
+                            <form class="form-modal-enter" action="">
+                                <div class="login-form-group">
+                                    <label class="label-color" for="example_Input_Email">E-mail</label>
+                                    <input type="email" class="login-form-input" id="example_Input_Email"
+                                           placeholder="example@gmail.com">
+                                </div>
+                                <div class="login-form-group">
+                                    <label class="label-color" for="example_Input_Password">Пароль</label>
+                                    <input type="password" class="login-form-input" id="example_Input_Password"
+                                           placeholder="password" minlength="8">
+                                    <a class="remember-pas" href="#">Забили пароль?</a>
+                                </div>
+                                <button type="submit" class="btn-main">Войти</button>
+                                <div class="login-form-reg">У вас ещё нет аккаунта? &nbsp;<a href="#" data-dismiss="modal" data-toggle="modal" data-target="#createModal">
+                                    Зарегистрироваться </a></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Create Account Modal -->
+    <div class="modal fade show" id="createModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header create-header">
+                    <img src="assets/img/Union%20(Stroke).png" alt="" class="create-header-img1">
+                    <img src="assets/img/Union%20(Stroke).png" alt="" class="create-header-img2">
+                    <img src="assets/img/Union%20(Stroke).png" alt="" class="create-header-img3">
+                    <img src="assets/img/Union%20(Stroke).png" alt="" class="create-header-img4">
+                    <h2>Создайте бесплатно свой аккаунт</h2>
+                    <button type="button" class="close close-create-body" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body create-body">
+                    <div class="row">
+                        <div class="create-bloc col-3.8" type="button" data-toggle="modal" data-target="#studentModal"
+                             data-dismiss="modal">
+                            <div class="create-account">
+                                <img src="assets/img/undraw_learning_2q1h.png" alt="">
+                                <h4>Студент</h4>
+                                <div class="create-text">Научитесь решать поставленные задачи и управлять вниманием
+                                </div>
+                            </div>
+                        </div>
+                        <div class="create-bloc col-3.8" type="button" data-toggle="modal" data-target="#parentsModal"
+                             data-dismiss="modal">
+                            <div class="create-account">
+                                <img src="assets/img/undraw_knowledge_g5gf.png" alt="">
+                                <h4>Родитель</h4>
+                                <div class="create-text">Организуйте обучение своих детей и наблюдайте за их
+                                    прогрессом
+                                </div>
+                            </div>
+                        </div>
+                        <div class="create-bloc col-3.8 create-bloc-last" type="button" data-toggle="modal"
+                             data-target="#teacherModal" data-dismiss="modal">
+                            <div class="create-account">
+                                <img src="assets/img/undraw_teaching_f1cm.png" alt="">
+                                <h4>Учитель</h4>
+                                <div class="create-text">Создайте программу обучения для учеников своего класса</div>
+                            </div>
+                        </div>
+                        <div class="create-modal-login col-12">Уже есть аккаунт? &nbsp;<a href="#" data-toggle="modal" data-target="#loginModal" data-dismiss="modal"> Войти </a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Create Student Modal -->
+    <div class="modal fade show" id="studentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body create-body">
+                    <div class="row">
+                        <div class="student-bloc-text col-6">
+                            <h2>Приветствуем на Calculus Guru</h2>
+                            <div class="student-text-title">После регистрации Вы получите:</div>
+                            <div class="student-item">
+                                <img class="vector" src="assets/img/Vector%20(Stroke).png" alt="">
+                                <div class="student-text">Пошаговые объяснения и прогресс</div>
+                            </div>
+                            <div class="student-item">
+                                <img class="vector" src="assets/img/Vector%20(Stroke).png" alt="">
+                                <div class="student-text">Доступ к урокам и программе обучения</div>
+                            </div>
+                            <div class="student-item">
+                                <img class="vector" src="assets/img/Vector%20(Stroke).png" alt="">
+                                <div class="student-text">Статистику Вашей успеваемости</div>
+                            </div>
+                            <img class="student-teacher" src="assets/img/undraw_teacher_35j2.png" alt="">
+                        </div>
+                        <div class="student-bloc-form col-6">
+                            <form class="form-modal-enter" action="">
+                                <div class="login-form-group">
+                                    <label class="label-color" for="example_Input_Login_Student">Логин</label>
+                                    <input type="text" class="login-form-input" id="example_Input_Login_Student"
+                                           placeholder="">
+                                </div>
+                                <div class="login-form-group">
+                                    <label class="label-color" for="example_Input_Email_Student">E-mail</label>
+                                    <input type="email" class="login-form-input" id="example_Input_Email_Student"
+                                           placeholder="example@gmail.com">
+                                </div>
+                                <div class="login-form-group">
+                                    <label class="label-color" for="example_Input_Password_Student">Пароль</label>
+                                    <input type="password" class="login-form-input" id="example_Input_Password_Student"
+                                           placeholder="password" minlength="8">
+                                </div>
+                              <!--  <div class="login-form-group">
+                                    <label class="label-color" for="inputYear">Год рождения</label>
+                                    <select id="inputYear" class="form-control">
+                                        <option selected disabled>Выберите из списка</option>
+                                        <option>1990</option>
+                                        <option>1991</option>
+                                        <option>1992</option>
+                                        <option>1993</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>-->
+                                <div class="login-form-group">
+                                    <label class="label-color" for="inputYear">Год рождения</label>
+                                    <div class="custom-select">
+                                        <select id="inputYear" class=" input-new-data" required="">
+                                            <option value="">Выберите из списка</option>
+                                            <option value="0">1990</option>
+                                            <option value="1">1992</option>
+                                            <option value="2">2000</option>
+                                            <option value="3">...</option>
+
+                                        </select>
+
+                                        <!--                                                <div class="select-selected">Select your Country...</div>-->
+                                        <!--                                                <div class="select-items select-hide">-->
+                                        <!--                                                    <div>Ukraine</div>-->
+                                        <!--                                                    <div>USA</div>-->
+                                        <!--                                                    <div>Finland</div>-->
+                                        <!--                                                    <div>...</div>-->
+                                        <!--                                                </div>-->
+                                    </div>
+                                </div>
+                                <div class="custom-control custom-checkbox my-1 mr-sm-2">
+                                    <input type="checkbox" class="form-check-input" id="customControlInline2" required>
+                                    <label class="custom-control-label" for="customControlInline2">Согласен с <a
+                                            href="#">Правилами пользования сайтом</a>
+                                        <p> и <a href="#">Политикой конфиденциальности</a></p></label>
+                                </div>
+                            </form>
+                            <button type="submit" class="btn-main btn-reg">Зарегистрироваться</button>
+                            <div class="create-modal-student col-12">Уже есть аккаунт? &nbsp;<a href="#" data-toggle="modal" data-target="#loginModal" data-dismiss="modal">Войти</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Create Parents Modal -->
+    <div class="modal fade show" id="parentsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body create-body">
+                    <div class="row">
+                        <div class="student-bloc-text col-6">
+                            <h2>Приветствуем на Calculus Guru</h2>
+                            <div class="student-text-title">После регистрации Вы получите:</div>
+                            <div class="student-item">
+                                <img class="vector" src="assets/img/Vector%20(Stroke).png" alt="">
+                                <div class="student-text">Пошаговые объяснения и прогресс</div>
+                            </div>
+                            <div class="student-item">
+                                <img class="vector" src="assets/img/Vector%20(Stroke).png" alt="">
+                                <div class="student-text">Доступ к урокам и программе обучения</div>
+                            </div>
+                            <div class="student-item">
+                                <img class="vector" src="assets/img/Vector%20(Stroke).png" alt="">
+                                <div class="student-text">Статистику Вашей успеваемости</div>
+                            </div>
+                            <img class="student-teacher" src="assets/img/undraw_teacher_35j2.png" alt="">
+                        </div>
+                        <div class="student-bloc-form col-6">
+                            <form class="form-modal-enter" action="">
+                                <div class="login-form-group">
+                                    <label class="label-color" for="example_Input_Login_Student">Логин</label>
+                                    <input type="text" class="login-form-input" id="example_Input_Login_Parents"
+                                           placeholder="">
+                                </div>
+                                <div class="login-form-group">
+                                    <label class="label-color" for="example_Input_Email_Student">E-mail</label>
+                                    <input type="email" class="login-form-input" id="example_Input_Email_Parents"
+                                           placeholder="example@gmail.com">
+                                </div>
+                                <div class="login-form-group">
+                                    <label class="label-color" for="example_Input_Password_Student">Пароль</label>
+                                    <input type="password" class="login-form-input" id="example_Input_Password_Parents"
+                                           placeholder="password" minlength="8">
+                                </div>
+                                <div class="custom-control custom-checkbox my-1 mr-sm-2">
+                                    <input type="checkbox" class="form-check-input" id="customControlInline3" required>
+                                    <label class="custom-control-label" for="customControlInline3">Согласен с <a
+                                            href="#">Правилами пользования сайтом</a>
+                                        <p> и <a href="#">Политикой конфиденциальности</a></p></label>
+                                </div>
+                            </form>
+                            <button type="submit" class="btn-main btn-reg">Зарегистрироваться</button>
+                            <div class="create-modal-student col-12">Уже есть аккаунт? &nbsp;<a href="#" data-toggle="modal" data-target="#loginModal" data-dismiss="modal">Войти</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Create Teacher Modal -->
+    <div class="modal fade show" id="teacherModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body create-body">
+                    <div class="row">
+                        <div class="student-bloc-text col-6">
+                            <h2>Приветствуем на Calculus Guru</h2>
+                            <div class="student-text-title">После регистрации Вы получите:</div>
+                            <div class="student-item">
+                                <img class="vector" src="assets/img/Vector%20(Stroke).png" alt="">
+                                <div class="student-text">Пошаговые объяснения и прогресс</div>
+                            </div>
+                            <div class="student-item">
+                                <img class="vector" src="assets/img/Vector%20(Stroke).png" alt="">
+                                <div class="student-text">Доступ к урокам и программе обучения</div>
+                            </div>
+                            <div class="student-item">
+                                <img class="vector" src="assets/img/Vector%20(Stroke).png" alt="">
+                                <div class="student-text">Статистику Вашей успеваемости</div>
+                            </div>
+                            <img class="student-teacher" src="assets/img/undraw_teacher_35j2.png" alt="">
+                        </div>
+                        <div class="student-bloc-form col-6">
+                            <form class="form-modal-enter" action="">
+                                <div class="login-form-group">
+                                    <label class="label-color" for="example_Input_Login_Student">Логин</label>
+                                    <input type="text" class="login-form-input" id="example_Input_Login_teacher"
+                                           placeholder="">
+                                </div>
+                                <div class="login-form-group">
+                                    <label class="label-color" for="example_Input_Email_Student">E-mail</label>
+                                    <input type="email" class="login-form-input" id="example_Input_Email_teacher"
+                                           placeholder="example@gmail.com">
+                                </div>
+                                <div class="login-form-group">
+                                    <label class="label-color" for="example_Input_Password_Student">Пароль</label>
+                                    <input type="password" class="login-form-input" id="example_Input_Password_teacher"
+                                           placeholder="password" minlength="8">
+                                </div>
+                                <div class="custom-control custom-checkbox my-1 mr-sm-2">
+                                    <input type="checkbox" class="form-check-input" id="customControlInline4">
+                                    <label class="custom-control-label" for="customControlInline4">Согласен с <a
+                                            href="#">Правилами пользования сайтом</a>
+                                        <p> и <a href="#">Политикой конфиденциальности</a></p></label>
+                                </div>
+                            </form>
+                            <button type="submit" class="btn-main btn-reg">Зарегистрироваться</button>
+                            <div class="create-modal-student col-12">Уже есть аккаунт? &nbsp;<a href="#" data-toggle="modal" data-target="#loginModal" data-dismiss="modal">Войти</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<img class="logo-img" src="assets/img/Logo.png" alt="">
+</body>
+<script src="./assets/js/jquery-3.5.1.slim.min.js"></script>
+<script src="./assets/js/popper.min.js"></script>
+<script src="./assets/bootstrap4.5/js/bootstrap.min.js"></script>
+<script src="./assets/js/all_file_js.js"></script>
+</html>

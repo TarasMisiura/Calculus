@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>settings</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;1,700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="assets/bootstrap4.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<section class="header">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light col-sm-12 col-md-12 col-lg-9">
+                <img class="navbar-brand" src="assets/img/Logo.png" alt="">
+                <!-- <div class="main-btn-group main-btn-group-header">
+                     <button type="button" class="btn-primary btn-main-login" data-toggle="modal"
+                             data-target="#loginModal">
+                         Login
+                     </button>
+                     <button type="button" class="btn-primary btn-main-reg" data-toggle="modal"
+                             data-target="#createModal">
+                         Registration
+                     </button>
+                 </div>-->
+                <div class="dropdown dropdown1 dropdown-md col-sm-6 col-md-5 col-lg-3">
+                    <li class="nav-item">
+                        <div class="dropdown2">
+                            <img class="nav-room-img" src="assets/img/avatar.png" alt="">
+                            <a class="nav-link" href="#">Артур Бобриков</a>
+                            <div class="dropdown-content">
+                                <a class="option1" href="#">Мои студенты</a>
+                                <a class="option1" href="#">Результаты</a>
+                                <a class="option1" href="#">Купоны</a>
+                                <a class="option1" href="#">Сообщения</a>
+                                <a class="option1" href="#">Настройки</a>
+                                <a class="option1" href="#">Выйти</a>
+                            </div>
+                        </div>
+                    </li>
+                </div>
+                <button class="navbar-toggler navbar-toggler-index collapsed" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="container1" onclick="myFunction(this)">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                    <span class="bar4"></span>
+                    <span class="bar5"></span>
+                    </span>
+                </button>
+
+                <div class="navbar-collapse col-md-12 col-lg-12 collapse" id="navbarSupportedContent" style="">
+                    <ul class="navbar-nav col-7">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">O PROJECTU <!--<span class="sr-only">(current)</span>--></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NAPOVEDA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">KONTAKTY</a>
+                        </li>
+                    </ul>
+                    <ul class="language-select col-md-3 col-lg-2">
+                        <li class="language" data-lang="ukr">UKR</li>
+                        <span class="lang-line">&#448;</span>
+                        <li class="language active" data-lang="rus">RUS</li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="dropdown dropdown1 dropdown-lg col-sm-5 col-md-5 col-lg-3">
+                <li class="nav-item">
+                    <div class="dropdown2">
+                        <img class="nav-room-img" src="assets/img/avatar.png" alt="">
+                        <a class="nav-link" href="#">Артур Бобриков</a>
+                        <div class="dropdown-content">
+                            <a class="option1" href="#">Мои студенты</a>
+                            <a class="option1" href="#">Результаты</a>
+                            <a class="option1" href="#">Купоны</a>
+                            <a class="option1" href="#">Сообщения</a>
+                            <a class="option1" href="#">Настройки</a>
+                            <a class="option1" href="#">Выйти</a>
+                        </div>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="student">
+    <div class="container">
+        <div class="plan-day-work">
+            <div class="container">
+                <div class="row">
+                    <div class="personal-menu">
+                        <img class="nav-room-img avatar-img" src="assets/img/avatar.png" alt="">
+                        <a href="#" class="nav-room-link personal-data">Артур Бобриков</a>
+                        <div class="status">Студент</div>
+                        <ul>
+
+                            <li class="option">
+                                <svg class="option-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6">
+                                        <path d="M6.9855 3.1913L5.24448 6.09301L7.07574 7.92426L7.92426 7.07574L6.75552 5.90699L8.0145 3.8087L6.9855 3.1913Z"
+                                              fill="#4D4F66"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12ZM6 10C8.20914 10 10 8.20914 10 6C10 3.79086 8.20914 2 6 2C3.79086 2 2 3.79086 2 6C2 8.20914 3.79086 10 6 10Z"
+                                              fill="#4D4F66"/>
+                                        <path d="M14 6H19V8H13.748C13.5653 8.70954 13.2878 9.38099 12.9297 10H19V20H5V13.9381C4.30136 13.851 3.6307 13.6738 3 13.4185V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4H18V2H16V4H13.748C13.9125 4.63924 14 5.3094 14 6Z"
+                                              fill="#4D4F66"/>
+                                    </g>
+                                </svg>
+                                План дня
+                            </li>
+                            <li class="option">
+                                <svg class="option-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6">
+                                        <path d="M11 3H8V19H6V7H3V21H21V9H18V19H16V13H13V19H11V3Z" fill="#4D4F66"/>
+                                    </g>
+                                </svg>
+                                Результаты
+                            </li>
+                            <li class="option">
+                                <svg class="option-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6">
+                                        <path d="M13.2931 10.2202L12 7L10.7069 10.2202L7.24472 10.4549L9.90768 12.6798L9.06107 16.0451L12 14.2L14.9389 16.0451L14.0923 12.6798L16.7553 10.4549L13.2931 10.2202Z"
+                                              fill="#4D4F66"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M4 4C2.89543 4 2 4.89543 2 6V9.87788L2.66675 10.1135C3.4449 10.3886 4 11.1307 4 12C4 12.8693 3.4449 13.6114 2.66675 13.8865L2 14.1221V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V14.1221L21.3332 13.8865C20.5551 13.6114 20 12.8693 20 12C20 11.1308 20.5551 10.3886 21.3332 10.1135L22 9.87788V6C22 4.89543 21.1046 4 20 4H4ZM4 6L20 6V8.53543C18.8052 9.22657 18 10.5183 18 12C18 13.4817 18.8052 14.7734 20 15.4646V18H4V15.4646C5.1948 14.7734 6 13.4817 6 12C6 10.5183 5.1948 9.22657 4 8.53543V6Z"
+                                              fill="#4D4F66"/>
+                                    </g>
+                                </svg>
+                                Купоны
+                            </li>
+                            <li class="option">
+                                <svg class="option-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M2 6C2 4.89543 2.89543 4 4 4H20C21.1046 4 22 4.89543 22 6V18C22 19.1046 21.1046 20 20 20H4C2.89543 20 2 19.1046 2 18V6ZM20 6H4V6.93917L12 11.8281L20 6.93917V6ZM20 9.28306L13.0429 13.5346C12.4027 13.9259 11.5973 13.9259 10.9571 13.5346L4 9.28306V18H20V9.28306Z"
+                                              fill="#4D4F66"/>
+                                    </g>
+                                </svg>
+                                Сообщения
+                            </li>
+                            <li class="option active">
+                                <svg class="option-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7ZM12 5C10.8954 5 10 5.89543 10 7C10 8.10457 10.8954 9 12 9C13.1046 9 14 8.10457 14 7C14 5.89543 13.1046 5 12 5Z"
+                                              fill="#4D4F66"/>
+                                        <path d="M18.5262 15.4738C17.1507 14.6494 15.0832 14 12 14C8.32959 14 6.09862 14.9203 4.76106 15.9606C4.09728 16.4769 3.79171 16.7468 3.41536 17.4268C3.19773 17.82 3 18.2 3 18.5V21H13L15 19H5V18.6901C5.02542 18.6367 5.06297 18.565 5.11589 18.4795C5.2617 18.2439 5.52772 17.8981 5.98894 17.5394C6.90138 16.8297 8.67041 16 12 16C14.4162 16 16.0106 16.4369 17.0522 16.9478L18.5262 15.4738Z"
+                                              fill="#4D4F66"/>
+                                        <path d="M15 22V24H17L23.7678 17.2322C23.963 17.037 23.963 16.7204 23.7678 16.5251L22.4749 15.2322C22.2796 15.037 21.963 15.037 21.7678 15.2322L15 22Z"
+                                              fill="#4D4F66"/>
+                                    </g>
+                                </svg>
+                                Настройки
+                            </li>
+                            <li class="option">
+                                <svg class="option-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M5 3C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3H5ZM5 5H19V10.5858L15.7071 7.29289L14.2929 8.70711L16.5858 11H9V13H16.5858L14.2929 15.2929L15.7071 16.7071L19 13.4142V19H5V5Z"
+                                              fill="#4D4F66"/>
+                                    </g>
+                                </svg>
+                                Выйти
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu-info">
+                        <div class="settings">
+                            <div class="student-menu-header">Настройки</div>
+                            <div class="bloc-inner bloc-inner-settings">
+                                <div class="row">
+                                    <div class="settings-bloc order-2 order-md-1 col-12 col-sm-12 col-md-5 col-lg-5">
+                                        <div class="basic-information">
+                                            <h4 class="settings-title">Основная информация</h4>
+                                            <form class="form-settings" action="">
+                                                <div class="login-form-group disabled">
+                                                    <label class="label-color" for="example_Input_Type_Setting">Тип
+                                                        аккаунта</label>
+                                                    <input type="text" class="login-form-input"
+                                                           id="example_Input_Type_Setting"
+                                                           placeholder="" disabled>
+                                                </div>
+                                                <div class="login-form-group disabled">
+                                                    <label class="label-color"
+                                                           for="example_Input_Login_Setting">Логин</label>
+                                                    <input type="text" class="login-form-input"
+                                                           id="example_Input_Login_Setting"
+                                                           placeholder="" disabled>
+                                                </div>
+                                                <div class="login-form-group">
+                                                    <label class="label-color" for="example_Input_Name_Setting">Имя</label>
+                                                    <input type="text" class="login-form-input input-new-data"
+                                                           id="example_Input_Name_Setting" placeholder="" required/>
+                                                </div>
+                                                <div class="login-form-group">
+                                                    <label class="label-color input-new-data" for="example_Soname_Setting">Фамилия</label>
+                                                    <input type="text" class="login-form-input input-new-data"
+                                                           id="example_Soname_Setting"
+                                                           placeholder="" required/>
+                                                </div>
+                                                <!-- <div class="login-form-group">
+                                                     <label class="label-color" for="inputYear">Год рождения</label>
+                                                     <select id="inputYear" class="form-control input-new-data" required>
+                                                         <option selected disabled>Выберите из списка</option>
+                                                         <option>1990</option>
+                                                         <option>1991</option>
+                                                         <option>1992</option>
+                                                         <option>1993</option>
+                                                         <option>...</option>
+                                                     </select>
+                                                 </div>-->
+                                                <div class="login-form-group">
+                                                    <label class="label-color" for="inputYear">Год рождения</label>
+                                                    <div class="custom-select">
+
+                                                        <select id="inputYear" class=" input-new-data" required="">
+                                                            <option value="">Выберите из списка</option>
+                                                            <option value="0">1990</option>
+                                                            <option value="1">1992</option>
+                                                            <option value="2">2000</option>
+                                                            <option value="3">...</option>
+
+                                                        </select>
+
+                                                        <!--                                                <div class="select-selected">Select your Country...</div>-->
+                                                        <!--                                                <div class="select-items select-hide">-->
+                                                        <!--                                                    <div>Ukraine</div>-->
+                                                        <!--                                                    <div>USA</div>-->
+                                                        <!--                                                    <div>Finland</div>-->
+                                                        <!--                                                    <div>...</div>-->
+                                                        <!--                                                </div>-->
+                                                    </div>
+                                                </div>
+                                                <div class="btn-input-new-data">
+                                                    <button class="btn-main btn-save-setting">Сохранить изменения</button>
+                                                    <span class="btn-cancel-setting">Отмена</span>
+                                                </div>
+                                            </form>
+                                            <h4 class="settings-title">Изменение электронной почты</h4>
+                                            <form class="form-settings" action="">
+                                                <div class="login-form-group disabled">
+                                                    <label class="label-color" for="example_Input_Email_Setting">Текущий
+                                                        адрес почты</label>
+                                                    <input type="email" class="login-form-input"
+                                                           id="example_Input_Email_Setting" disabled>
+                                                </div>
+                                                <div class="login-form-group">
+                                                    <label class="label-color" for="example_Input_Setting">Новый
+                                                        адрес</label>
+                                                    <input type="email" class="login-form-input input-new-email"
+                                                           id="example_Input_Setting"
+                                                           placeholder="example@gmail.com" required/>
+                                                    <div class="btn-input-new-email">
+                                                        <button class="btn-main btn-save-setting">Изменить e-mail</button>
+                                                        <span class="btn-cancel-setting">Отмена</span>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <h4 class="settings-title">Изменение пароля</h4>
+                                            <form class="form-settings" action="">
+                                                <div class="login-form-group setting-password-img">
+                                                    <label class="label-color" for="example_Input_Password_Setting">Текущий
+                                                        пароль</label>
+                                                    <input type="password"
+                                                           class="login-form-input password-control-setting1"
+                                                           id="example_Input_Password_Setting"
+                                                           placeholder="password" minlength="8">
+                                                    <a href="#" class="password-control1"></a>
+                                                    <a class="remember-pas" href="#">Забили пароль?</a>
+                                                </div>
+                                                <div class="login-form-group setting-password-img">
+                                                    <label class="label-color" for="example_Input_NewPassword">Новый
+                                                        пароль</label>
+                                                    <input type="password"
+                                                           class="login-form-input input-new-password password-control-setting"
+                                                           id="example_Input_NewPassword"
+                                                           placeholder="password" minlength="8" required/>
+                                                    <div class="btn-input-new-password">
+                                                        <button class="btn-main btn-save-setting">Изменить пароль</button>
+                                                        <span class="btn-cancel-setting">Отмена</span>
+                                                    </div>
+                                                    <a href="#" class="password-control"></a>
+                                                </div>
+                                            </form>
+                                            <div class="setting-delete-profile">Вы можете <span class="delete-profile-text" data-toggle="modal" data-target="#deleteModal">удалить аккаунт</span>
+                                            </div>
+                                            <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="Add_student_ModalLabel" style="display: none;" aria-hidden="true">
+                                                <div class="modal-dialog modal-add-student modal-dialog-centered">
+                                                    <div class="modal-content add-account-container">
+                                                        <div class="modal-body add-account-body">
+                                                            <h4 class="delete-title">Удалить профиль</h4>
+                                                            <div class="delete-text">Вы действительно хотите удалить этот аккаунт</div>
+                                                            <button class="btn-main btn-delete">Удалить сейчас</button>
+                                                            <button class="btn-cancel" data-dismiss="modal">Отмена</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="profile-photo order-1 order-md-2 col-12 col-sm-12 col-md-5 col-lg-5">
+                                        <h4 class="settings-title">Изображение профиля</h4>
+                                        <div class="profile-photo-bloc">
+                                            <img class="settings-photo" src="assets/img/avatar.png" alt="">
+                                            <button class="btn-main btn-setting-photo">Загрузить</button>
+                                            <div class="setting-photo-text"> Максимальный размер файла: 2Mb. Рекомендованный
+                                                размер фото — 200×200 px. Формат: jpg, png.
+                                            </div>
+                                        </div>
+                                        <div class="delete-photo">Удалить фото</div>
+                                    </div>
+                                </div>
+                                <div class="settings-line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+
+<script src="./assets/js/jquery-3.5.1.slim.min.js"></script>
+<script src="./assets/js/popper.min.js"></script>
+<script src="./assets/bootstrap4.5/js/bootstrap.min.js"></script>
+<script src="./assets/js/all_file_js.js"></script>
+</html>
